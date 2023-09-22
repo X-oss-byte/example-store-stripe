@@ -3346,20 +3346,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:3.11.1":
-  version: 3.11.1
-  resolution: "@prisma/client@npm:3.11.1"
-  dependencies:
-    "@prisma/engines-version": 3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9
-  peerDependencies:
-    prisma: "*"
-  peerDependenciesMeta:
-    prisma:
-      optional: true
-  checksum: 30fc249e16d066e0bf1696a896e31eb8858bcd63a417fafa50f42df4ddf327b03d9a4c2efca5a4a3b95888afa0b05d43cb77933b844d1023b36450929caafa32
-  languageName: node
-  linkType: hard
-
 "@prisma/client@npm:3.14.0":
   version: 3.14.0
   resolution: "@prisma/client@npm:3.14.0"
@@ -3371,6 +3357,20 @@ __metadata:
     prisma:
       optional: true
   checksum: 73de113bdeea256560b6091f206ca75ca2323afda54632351ba8963e1592fc94da5bceb3b11b854d1e95d1ef5154164020a3e51a349b457161379eed47d59ad8
+  languageName: node
+  linkType: hard
+
+"@prisma/client@npm:3.15.2":
+  version: 3.15.2
+  resolution: "@prisma/client@npm:3.15.2"
+  dependencies:
+    "@prisma/engines-version": 3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e
+  peerDependencies:
+    prisma: "*"
+  peerDependenciesMeta:
+    prisma:
+      optional: true
+  checksum: ef9067c167aa0c4d57587724272f12074152e67b3c037287acc381955534c26e0f65b0b9eea900fd24492edb0f86dba7bcbdb74100eccbf1a82e3d3fc2c33f79
   languageName: node
   linkType: hard
 
@@ -3416,17 +3416,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/engines-version@npm:3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9":
-  version: 3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9
-  resolution: "@prisma/engines-version@npm:3.11.1-1.1a2506facaf1a4727b7c26850735e88ec779dee9"
-  checksum: 5c300a8aa4e487ceb52a15552216b2a83ecd2a1e6697e8e0f401d872d36b432acf1b13580eea5fb51f102e52e3c600ef476f1142045dd31813b939b90a28bf97
-  languageName: node
-  linkType: hard
-
 "@prisma/engines-version@npm:3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a":
   version: 3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a
   resolution: "@prisma/engines-version@npm:3.14.0-36.2b0c12756921c891fec4f68d9444e18c7d5d4a6a"
   checksum: 8fafd3eafc941347e4111beef0f8428b14101d3153073e46d09f8ac89e6db9cfe4426c86fd8b7054bbbb5b05b143c9cd426a83eabee43afd7c471af400d51b3b
+  languageName: node
+  linkType: hard
+
+"@prisma/engines-version@npm:3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e":
+  version: 3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e
+  resolution: "@prisma/engines-version@npm:3.15.1-1.461d6a05159055555eb7dfb337c9fb271cbd4d7e"
+  checksum: aaa229a8fce941b1611bd9c7fd0234d1f897b6664c8a827766657e36a399962504cf95fc713264e838f1abe69afd9d2af9934b0dafb8352b8a22816695dc38fe
   languageName: node
   linkType: hard
 
@@ -3590,42 +3590,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redwoodjs/api@npm:1.0.0":
-  version: 1.0.0
-  resolution: "@redwoodjs/api@npm:1.0.0"
-  dependencies:
-    "@babel/runtime-corejs3": 7.16.7
-    "@prisma/client": 3.11.1
-    cross-undici-fetch: 0.1.27
-    crypto-js: 4.1.1
-    humanize-string: 2.1.0
-    jsonwebtoken: 8.5.1
-    jwks-rsa: 2.0.5
-    md5: 2.3.0
-    pascalcase: 1.0.0
-    pino: 7.9.2
-    title-case: 3.0.3
-    uuid: 8.3.2
-  peerDependencies:
-    "@clerk/clerk-sdk-node": 2.10.0
-    "@magic-sdk/admin": 1.3.4
-    firebase-admin: 10.0.2
-  peerDependenciesMeta:
-    "@clerk/clerk-sdk-node":
-      optional: true
-    "@magic-sdk/admin":
-      optional: true
-    firebase-admin:
-      optional: true
-  bin:
-    redwood: dist/bins/redwood.js
-    rw: dist/bins/redwood.js
-    rwfw: dist/bins/rwfw.js
-    tsc: dist/bins/tsc.js
-  checksum: 98f5360d011b0145f90b184c1d48b32ff4cfbcd199d36cea7ceaa9d4635626906efb4c74819d8ac1b60c4da5185f329ba29d5dd0c0e1829288f674145309e914
-  languageName: node
-  linkType: hard
-
 "@redwoodjs/api@npm:1.5.2":
   version: 1.5.2
   resolution: "@redwoodjs/api@npm:1.5.2"
@@ -3660,6 +3624,43 @@ __metadata:
     rwfw: dist/bins/rwfw.js
     tsc: dist/bins/tsc.js
   checksum: 5ed9323ec8f5c1319ae88e056464d131900a2dbedab01d16d555d64b63766a2c88092a878ca0717f807a9f9b116d23a9a946318ddd31f9e307bc15c81dacc884
+  languageName: node
+  linkType: hard
+
+"@redwoodjs/api@npm:2.2.5":
+  version: 2.2.5
+  resolution: "@redwoodjs/api@npm:2.2.5"
+  dependencies:
+    "@babel/runtime-corejs3": 7.16.7
+    "@prisma/client": 3.15.2
+    core-js: 3.23.5
+    cross-undici-fetch: 0.4.14
+    crypto-js: 4.1.1
+    humanize-string: 2.1.0
+    jsonwebtoken: 8.5.1
+    jwks-rsa: 2.0.5
+    md5: 2.3.0
+    pascalcase: 1.0.0
+    pino: 7.11.0
+    title-case: 3.0.3
+    uuid: 8.3.2
+  peerDependencies:
+    "@clerk/clerk-sdk-node": 3.8.6
+    "@magic-sdk/admin": 1.4.1
+    firebase-admin: 10.3.0
+  peerDependenciesMeta:
+    "@clerk/clerk-sdk-node":
+      optional: true
+    "@magic-sdk/admin":
+      optional: true
+    firebase-admin:
+      optional: true
+  bin:
+    redwood: dist/bins/redwood.js
+    rw: dist/bins/redwood.js
+    rwfw: dist/bins/rwfw.js
+    tsc: dist/bins/tsc.js
+  checksum: 249ee28d25bc523e32dc2ae8ba74c5ba4d317181ee76fb5385c4d013e2cb9c4162c4237b8e1438dc61f80f8a8e3e74347c4b347b8e0d8d733c1ba16ef27862bc
   languageName: node
   linkType: hard
 
@@ -7467,7 +7468,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "api@workspace:api"
   dependencies:
-    "@redwoodjs/api": 1.0.0
+    "@redwoodjs/api": 2.2.5
     "@redwoodjs/graphql-server": 1.5.2
     graphql-scalars: 1.22.2
     stripe: 8.222.0
@@ -9875,10 +9876,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js@npm:3.22.5, core-js@npm:^3.0.4, core-js@npm:^3.19.0, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+"core-js@npm:3.22.5":
   version: 3.22.5
   resolution: "core-js@npm:3.22.5"
   checksum: edabca2183444c36e3fb66aabeab42a59468628af45a6926ec7b254723a0ef0ae22da683849f48a9a59d72d4ff04ead953ee8dff919d233e1773a3fded7fbd34
+  languageName: node
+  linkType: hard
+
+"core-js@npm:3.23.5, core-js@npm:^3.0.4, core-js@npm:^3.19.0, core-js@npm:^3.6.5, core-js@npm:^3.8.2":
+  version: 3.23.5
+  resolution: "core-js@npm:3.23.5"
+  checksum: ab9b483ede285b3949e2411f9190d147ac589d111b0aa3a4b2999a1bf2755b3e930529c2a22ff550efd4fc154c7cfae700bee858dedff905a09f35ddbcc6425f
   languageName: node
   linkType: hard
 
@@ -10078,19 +10086,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cross-undici-fetch@npm:^0.0.20":
-  version: 0.0.20
-  resolution: "cross-undici-fetch@npm:0.0.20"
-  dependencies:
-    abort-controller: ^3.0.0
-    form-data: ^4.0.0
-    node-fetch: ^2.6.5
-    undici: ^4.9.3
-  checksum: f04a2a74ad8cea21d27802b05a8a2bf7c7a87374420aa903af5bb77fc33ffc53e5463771e2fab6f17e5e5f8d5d9d7555fcc1b7a4120a014a063f6b6fb43bae3f
-  languageName: node
-  linkType: hard
-
-"cross-undici-fetch@npm:^0.4.2":
+"cross-undici-fetch@npm:0.4.14, cross-undici-fetch@npm:^0.4.2":
   version: 0.4.14
   resolution: "cross-undici-fetch@npm:0.4.14"
   dependencies:
@@ -10102,6 +10098,18 @@ __metadata:
     undici: 5.5.1
     web-streams-polyfill: ^3.2.0
   checksum: 4c81cf227c5fb4aac58f3da8d38d88c426745c09c6a11c03ef10317ccc61cf0b4c72edd436b0a9693c1eb0ec34427c9721f41c391cfd8e411c1e8f5e8ce1318e
+  languageName: node
+  linkType: hard
+
+"cross-undici-fetch@npm:^0.0.20":
+  version: 0.0.20
+  resolution: "cross-undici-fetch@npm:0.0.20"
+  dependencies:
+    abort-controller: ^3.0.0
+    form-data: ^4.0.0
+    node-fetch: ^2.6.5
+    undici: ^4.9.3
+  checksum: f04a2a74ad8cea21d27802b05a8a2bf7c7a87374420aa903af5bb77fc33ffc53e5463771e2fab6f17e5e5f8d5d9d7555fcc1b7a4120a014a063f6b6fb43bae3f
   languageName: node
   linkType: hard
 
@@ -19126,26 +19134,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pino@npm:7.9.2":
-  version: 7.9.2
-  resolution: "pino@npm:7.9.2"
-  dependencies:
-    fast-redact: ^3.0.0
-    on-exit-leak-free: ^0.2.0
-    pino-abstract-transport: v0.5.0
-    pino-std-serializers: ^4.0.0
-    process-warning: ^1.0.0
-    quick-format-unescaped: ^4.0.3
-    real-require: ^0.1.0
-    safe-stable-stringify: ^2.1.0
-    sonic-boom: ^2.2.1
-    thread-stream: ^0.15.0
-  bin:
-    pino: bin.js
-  checksum: 540858157405db1dd2ec7ff43aa5042dc0f76178f92813f3dda556fddff6468148775595645324e6b6c2359d6477215661545ee6fdf853b9b3f1f6d4c094b3a3
-  languageName: node
-  linkType: hard
-
 "pino@npm:^6.13.0":
   version: 6.13.3
   resolution: "pino@npm:6.13.3"
@@ -22993,7 +22981,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"thread-stream@npm:^0.15.0, thread-stream@npm:^0.15.1":
+"thread-stream@npm:^0.15.1":
   version: 0.15.2
   resolution: "thread-stream@npm:0.15.2"
   dependencies:
