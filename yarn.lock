@@ -14484,10 +14484,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"immer@npm:9.0.21":
-  version: 9.0.21
-  resolution: "immer@npm:9.0.21"
-  checksum: 03ea3ed5d4d72e8bd428df4a38ad7e483ea8308e9a113d3b42e0ea2cc0cc38340eb0a6aca69592abbbf047c685dbda04e3d34bf2ff438ab57339ed0a34cc0a05
+"immer@npm:10.0.3":
+  version: 10.0.3
+  resolution: "immer@npm:10.0.3"
+  checksum: 282a4f8479a40f7d12b2b3243c095e3e892bf99058e2ffcdd6b8e9fd143e6a90f2717ab9b6c8b97c927ffb8054465c8f647056f41660dbfd672e240cf1063503
   languageName: node
   linkType: hard
 
@@ -24318,7 +24318,7 @@ __metadata:
     "@stripe/stripe-js": 1.54.2
     "@xstate/immer": 0.3.1
     "@xstate/react": 2.0.1
-    immer: 9.0.21
+    immer: 10.0.3
     open-props: 1.5.16
     prop-types: 15.8.1
     react: 17.0.2
