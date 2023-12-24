@@ -7026,22 +7026,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xstate/react@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@xstate/react@npm:2.0.1"
+"@xstate/react@npm:4.0.2":
+  version: 4.0.2
+  resolution: "@xstate/react@npm:4.0.2"
   dependencies:
-    use-isomorphic-layout-effect: ^1.0.0
-    use-subscription: ^1.3.0
+    use-isomorphic-layout-effect: ^1.1.2
+    use-sync-external-store: ^1.0.0
   peerDependencies:
-    "@xstate/fsm": ^1.6.5
-    react: ^16.8.0 || ^17.0.0
-    xstate: ^4.30.3
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    xstate: ^5.4.1
   peerDependenciesMeta:
-    "@xstate/fsm":
-      optional: true
     xstate:
       optional: true
-  checksum: c83f53899361c3a2b4f9281c308c7f20b4f9cee15fea983fe77f2f29de6c1837f57aa9a695ed3242462a89057b22daa60273eff422351b554a8b244bd4cd8d94
+  checksum: bcce2b6dfa01363cbc074c56b604b773f297d8c63e57e2bfbcc69d98f1dc1eba7b291fa6e7223b04e75383f19ee7d4ce0982d06e4495a142daa26acf82f5f02c
   languageName: node
   linkType: hard
 
@@ -23951,26 +23948,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-isomorphic-layout-effect@npm:^1.0.0":
-  version: 1.1.1
-  resolution: "use-isomorphic-layout-effect@npm:1.1.1"
+"use-isomorphic-layout-effect@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "use-isomorphic-layout-effect@npm:1.1.2"
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: eaf2766a10b837f5d6bc5b34906349217bf612eb9623624edead75d436169d625d34eec131d15adf40a22180c17d6c3374dcdb82097bc7105710143aa69e12a4
+  checksum: d8deea8b85e55ac6daba237a889630bfdbf0ebf60e9e22b6a78a78c26fabe6025e04ada7abef1e444e6786227d921e648b2707db8b3564daf757264a148a6e23
   languageName: node
   linkType: hard
 
-"use-subscription@npm:^1.3.0":
-  version: 1.5.1
-  resolution: "use-subscription@npm:1.5.1"
-  dependencies:
-    object-assign: ^4.1.1
+"use-sync-external-store@npm:^1.0.0":
+  version: 1.2.0
+  resolution: "use-sync-external-store@npm:1.2.0"
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-  checksum: 0de6185cd5890a0640cd08b616f9de7875c41d51e6570894eb2bb83fa48c6137eaa56c360edb8fb9f7f253b9705e103bca52fbcd9f86b03d07c6467d282758fc
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: ac4814e5592524f242921157e791b022efe36e451fe0d4fd4d204322d5433a4fc300d63b0ade5185f8e0735ded044c70bcf6d2352db0f74d097a238cebd2da02
   languageName: node
   linkType: hard
 
@@ -24317,7 +24312,7 @@ __metadata:
     "@redwoodjs/web": 1.5.2
     "@stripe/stripe-js": 1.54.2
     "@xstate/immer": 0.3.1
-    "@xstate/react": 2.0.1
+    "@xstate/react": 4.0.2
     immer: 9.0.21
     open-props: 1.5.16
     prop-types: 15.8.1
@@ -24325,7 +24320,7 @@ __metadata:
     react-dom: 17.0.2
     react-feather: 2.0.10
     styled-components: 5.3.11
-    xstate: 4.30.6
+    xstate: 5.4.1
   languageName: unknown
   linkType: soft
 
@@ -25046,10 +25041,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xstate@npm:4.30.6":
-  version: 4.30.6
-  resolution: "xstate@npm:4.30.6"
-  checksum: 47b1479012b79541aa4f687dd7b73b0c1780144e225345cf242746714d6a25e1efb1eda3975197d21b528e47bcafbad1ae31d10e52a76a9f2e59f6e8387a1d6a
+"xstate@npm:5.4.1":
+  version: 5.4.1
+  resolution: "xstate@npm:5.4.1"
+  checksum: f15acba6af937a06a493b7c63a1656cfe6e1b2d391d82b0babd7c09afde306761d4c4e9109e38a9273628425021f558e82afc6e1405cd655bf0b915a64c813a3
   languageName: node
   linkType: hard
 
