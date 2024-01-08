@@ -5314,10 +5314,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@stripe/stripe-js@npm:1.54.2":
-  version: 1.54.2
-  resolution: "@stripe/stripe-js@npm:1.54.2"
-  checksum: cf6ea20039fde28a0edc5562f08120ea820b1f8b8f2cf8b769aa92c0a4799a85e614f4112d8d790238960d0a3e1a194c76f6d2d941aa91acc8fbbc8920e63f02
+"@stripe/stripe-js@npm:2.3.0":
+  version: 2.3.0
+  resolution: "@stripe/stripe-js@npm:2.3.0"
+  checksum: 53cf4b542c3645077db84d5c61799877395eddd68b189469aa12fb01b2b7165bf4c5d9f158d9ee24a6820ed9a92c7cb8fba8555e6d249ed5c4d5ee96730cc63d
   languageName: node
   linkType: hard
 
@@ -24315,7 +24315,7 @@ __metadata:
     "@redwoodjs/forms": 1.5.2
     "@redwoodjs/router": 1.5.2
     "@redwoodjs/web": 1.5.2
-    "@stripe/stripe-js": 1.54.2
+    "@stripe/stripe-js": 2.3.0
     "@xstate/immer": 0.3.1
     "@xstate/react": 2.0.1
     immer: 9.0.21
