@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@playwright/test": "1.38.1",
-    "@redwoodjs/core": "1.5.2"
+    "@redwoodjs/core": "8.4.0"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
