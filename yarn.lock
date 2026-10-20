@@ -7026,22 +7026,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xstate/react@npm:2.0.1":
-  version: 2.0.1
-  resolution: "@xstate/react@npm:2.0.1"
+"@xstate/react@npm:6.1.0":
+  version: 6.1.0
+  resolution: "@xstate/react@npm:6.1.0"
   dependencies:
-    use-isomorphic-layout-effect: ^1.0.0
-    use-subscription: ^1.3.0
+    use-isomorphic-layout-effect: ^1.1.2
+    use-sync-external-store: ^1.2.0
   peerDependencies:
-    "@xstate/fsm": ^1.6.5
-    react: ^16.8.0 || ^17.0.0
-    xstate: ^4.30.3
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+    xstate: ^5.28.0
   peerDependenciesMeta:
-    "@xstate/fsm":
-      optional: true
     xstate:
       optional: true
-  checksum: c83f53899361c3a2b4f9281c308c7f20b4f9cee15fea983fe77f2f29de6c1837f57aa9a695ed3242462a89057b22daa60273eff422351b554a8b244bd4cd8d94
+  checksum: 64d16d5e6bad5560e8bf9cb347421948032a9b5776680b168d41e389d8376ccce8d065b2ae6936899b09ab10961872bc898927935584131d96c9df5650c46145
   languageName: node
   linkType: hard
 
@@ -23951,26 +23948,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"use-isomorphic-layout-effect@npm:^1.0.0":
-  version: 1.1.1
-  resolution: "use-isomorphic-layout-effect@npm:1.1.1"
+"use-isomorphic-layout-effect@npm:^1.1.2":
+  version: 1.2.1
+  resolution: "use-isomorphic-layout-effect@npm:1.2.1"
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
   peerDependenciesMeta:
     "@types/react":
       optional: true
-  checksum: eaf2766a10b837f5d6bc5b34906349217bf612eb9623624edead75d436169d625d34eec131d15adf40a22180c17d6c3374dcdb82097bc7105710143aa69e12a4
+  checksum: 4d3c1124d630fbe09c1d2a16af0cd78ac2fe1d22eb24a178363e3d84a897659cc04e8e8cd71f66ff78ff75ef8287fa72e746cb213b96c1097e70e4b4ed69f63f
   languageName: node
   linkType: hard
 
-"use-subscription@npm:^1.3.0":
-  version: 1.5.1
-  resolution: "use-subscription@npm:1.5.1"
-  dependencies:
-    object-assign: ^4.1.1
+"use-sync-external-store@npm:^1.2.0":
+  version: 1.7.0
+  resolution: "use-sync-external-store@npm:1.7.0"
   peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-  checksum: 0de6185cd5890a0640cd08b616f9de7875c41d51e6570894eb2bb83fa48c6137eaa56c360edb8fb9f7f253b9705e103bca52fbcd9f86b03d07c6467d282758fc
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+  checksum: 6bae7cb778ce611131ec830c4e469fbc2872acefc25d2e4cf1c28b8628690689770742a9f2f0642c95134f9c77041fee60f0352f81ca43f96643b0ed01774726
   languageName: node
   linkType: hard
 
@@ -24317,7 +24312,7 @@ __metadata:
     "@redwoodjs/web": 1.5.2
     "@stripe/stripe-js": 1.54.2
     "@xstate/immer": 0.3.1
-    "@xstate/react": 2.0.1
+    "@xstate/react": 6.1.0
     immer: 9.0.21
     open-props: 1.5.16
     prop-types: 15.8.1
@@ -24325,7 +24320,7 @@ __metadata:
     react-dom: 17.0.2
     react-feather: 2.0.10
     styled-components: 5.3.11
-    xstate: 4.30.6
+    xstate: 5.33.3
   languageName: unknown
   linkType: soft
 
@@ -25046,10 +25041,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xstate@npm:4.30.6":
-  version: 4.30.6
-  resolution: "xstate@npm:4.30.6"
-  checksum: 47b1479012b79541aa4f687dd7b73b0c1780144e225345cf242746714d6a25e1efb1eda3975197d21b528e47bcafbad1ae31d10e52a76a9f2e59f6e8387a1d6a
+"xstate@npm:5.33.3":
+  version: 5.33.3
+  resolution: "xstate@npm:5.33.3"
+  checksum: 121a5491dc9e062d960666edfd29cf6429b534e2dd5c4e4d3990ffc436066ec2acf6bf18f61b1c401edd26c52b7ac41c416efaa38db036506734841524e3ffff
   languageName: node
   linkType: hard
 
